@@ -1,11 +1,9 @@
 def puissance(valeur,exposant):
-	carre = 0
+	puissance = 1
 	if not type(valeur) is int:
 		raise TypeError("Only integers are allowed.")
-	for loop in range(1,exposant):
-		carre+=valeur*valeur
-	if exposant == 1:
-		carre = valeur
-	if exposant == 0:
-		carre = 1
-	return carre
+	if not type(exposant) is int:
+		raise TypeError("Only integers are allowed.")
+	for _ in range(exposant):
+		puissance *= valeur
+	return puissance
