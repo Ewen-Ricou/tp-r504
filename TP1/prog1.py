@@ -1,5 +1,6 @@
 import fonctions as f
 print("Hello, World!")
 while True :
-	nombre = input("Donnez une valeur numérique : ")
-	print("Le carré de la valeur est",f.puissance(int(nombre),2))
+	nombre1 = input("Donnez une valeur numérique : ")
+	nombre2 = input("Donnez une valeur numérique pour l'exposant : ")
+	print("La valeur est",f.puissance(int(nombre1),int(nombre2)))
