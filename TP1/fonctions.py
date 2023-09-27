@@ -4,7 +4,7 @@ def puissance(valeur,exposant):
 	if not type(exposant) is int :
 		raise TypeError("Only integers are allowed.")
 	if valeur == 0 and exposant == 0 :
-		raise TypeError("Zero Power Zero Error")
+		raise TypeError("ZeroPowerZeroError")
 	if valeur > 0 or (exposant%2) == 0 and exposant != 0 :
 		puissance = 1
 	elif valeur < 0 :
