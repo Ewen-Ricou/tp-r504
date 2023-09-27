@@ -11,3 +11,5 @@ jobs:
         run: |
           pip install pytest
           pytest TP1/test.py
+      - run: echo "Nom branche ${{ github.ref }}"
+      - run: echo "OS utilisateur ${{ runner.os }}"
