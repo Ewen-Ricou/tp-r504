@@ -17,6 +17,6 @@ def test_3():
 	try :
 		f.puissance(0,0)
 		assert False
-	except TypeError == "Zero Power Zero Error" :
+	except 'TypeError: Zero Power Zero Error' :
 		assert True
 	assert f.puissance(2,-2) == 0.25
