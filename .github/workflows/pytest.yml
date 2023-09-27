@@ -20,7 +20,6 @@ jobs:
         run: echo "OS utilisateur ${{ runner.os }}"
       - name: Version de python
         run: python3 --version
-    strategy:
     matrix:
       python-version: ["3.8"]
     steps:
