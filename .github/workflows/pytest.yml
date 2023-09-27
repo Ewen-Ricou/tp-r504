@@ -3,6 +3,9 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+    matrix:
+      python-version: ["3.10"]
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python for Demo
@@ -11,5 +14,28 @@ jobs:
         run: |
           pip install pytest
           pytest TP1/test.py
-      - run: echo "Nom branche ${{ github.ref }}"
-      - run: echo "OS utilisateur ${{ runner.os }}"
+      - name: Nom de la branche
+        run: echo "Nom branche ${{ github.ref }}"
+      - name: OS de l'utilisateur
+        run: echo "OS utilisateur ${{ runner.os }}"
+      - name: Version de python
+        run: python3 --version
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+    matrix:
+      python-version: ["3.8"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python for Demo
+        uses: actions/setup-python@v4
+      - name: Run tests
+        run: |
+          pip install pytest
+          pytest TP1/test.py
+      - name: Nom de la branche
+        run: echo "Nom branche ${{ github.ref }}"
+      - name: OS de l'utilisateur
+        run: echo "OS Utilisateur ${{ runner.os }}"
+      - name: Version de python
+        run: python3 --version
