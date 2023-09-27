@@ -5,7 +5,7 @@ def puissance(valeur,exposant):
 		raise TypeError("Only integers are allowed.")
 	if valeur == 0 and exposant == 0 :
 		raise TypeError("ZeroPowerZeroError")
-	if valeur > 0 or (exposant%2) == 0 and exposant != 0 :
+	if valeur > 0 or (exposant%2) == 0 :
 		puissance = 1
 	elif valeur < 0 :
 		puissance = -1
