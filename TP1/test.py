@@ -14,5 +14,9 @@ def test_3():
 	assert f.puissance(2,0) == 1
 	assert f.puissance(-2,0) == -1
 	assert f.puissance(0,3) == 0
-	assert f.puissance(0,0) == 0
+	try :
+		f.puissance(0,0)
+		assert False
+	except "Entry can't be (0,0)" :
+		assert True
 	assert f.puissance(2,-2) == 0.25
