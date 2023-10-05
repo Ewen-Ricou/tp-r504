@@ -22,4 +22,5 @@ La commande affiche 10 alors que github affiche 9
 git status
 La branche par défaut est "main"
 Le fichier index.html n'est pas suivi
-
+On ne peut pas voir le fichier index.html dans la branche principale
+La commande affiche la ligne qui a été ajoutée en couleur
