@@ -64,3 +64,6 @@ La commande affiche la ligne qui a été ajoutée en couleur
 3.1.
 On ne peut pas faire de modifications puisque notre authentification échoue lors du push
 
+3.3.
+Elle ne sont pas automatiquement propagées.
+git pull
