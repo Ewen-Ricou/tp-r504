@@ -1,27 +1,66 @@
 1.
 
+1.1.
 9 contributeurs
+
+1.2.
 100,7 ko
+
+1.3.
 Donne la dernière version dans laquelle chaque ligne a été modifiée, et par quel utilisateur
+
+1.4.
 Jake Ginnivan
+
+1.5.
 3e5d1596
+
+1.6.
 « Adding tag command reference »
+
+1.7.
 Le mardi 17 juin 2014
-3e5d1596e347e2ed2cf7cc30b34d222a19997050
-Jake Ginnivan
-Le mardi 17 juin 2014
+
+1.8.
+294c63b9653d93caefdd233da52fc0cd6ca95268
+
+1.9.
+Wei Wang
+Le mardi 6 janvier 2015
+
+1.10.
 git log --oneline --all | wc -l
 91
+
+1.11.*
 Cela nous donne la date du commit
+
+1.12.
 git log --format="%an"
+
+1.13.
 git log --format="%an" | sort | uniq | wc -l
 La commande affiche 10 alors que github affiche 9
 
 2.
 
+2.1.
 git status
+
+2.2.
 La branche par défaut est "main"
-Le fichier n'est pas suivi
+
+2.5.
 Le fichier index.html n'est pas suivi
+
+2.6.
 On ne peut pas voir le fichier index.html dans la branche principale
+
+2.7.
 La commande affiche la ligne qui a été ajoutée en couleur
+
+3.
+
+3.1.
+On ne peut pas faire de modifications puisque notre authentification échoue lors du push
+
