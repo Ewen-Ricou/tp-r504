@@ -1,0 +1,16 @@
+9 contributeurs
+100,7 ko
+Donne la dernière version dans laquelle chaque ligne a été modifiée, et par quel utilisateur
+Jake Ginnivan
+3e5d1596
+« Adding tag command reference »
+Le mardi 17 juin 2014
+3e5d1596e347e2ed2cf7cc30b34d222a19997050
+Jake Ginnivan
+Le mardi 17 juin 2014
+git log --oneline --all | wc -l
+91
+Cela nous donne la date du commit
+git log --format="%an"
+git log --format="%an" | sort | uniq | wc -l
+La commande affiche 10 alors que github affiche 9
