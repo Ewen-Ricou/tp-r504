@@ -1,3 +1,5 @@
+1.
+
 9 contributeurs
 100,7 ko
 Donne la dernière version dans laquelle chaque ligne a été modifiée, et par quel utilisateur
@@ -14,3 +16,11 @@ Cela nous donne la date du commit
 git log --format="%an"
 git log --format="%an" | sort | uniq | wc -l
 La commande affiche 10 alors que github affiche 9
+
+2.
+
+git status
+La branche par défaut est "main"
+Le fichier n'est pas suivi
+On ne voit pas le fichier index.html dans la branche principale
+
