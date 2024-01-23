@@ -1,0 +1,1 @@
+java -classpath ".:∼/lib/" $1
