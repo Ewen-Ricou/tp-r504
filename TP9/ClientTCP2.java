@@ -11,8 +11,6 @@ public class ClientTCP3
 
 			DataOutputStream dOut = new DataOutputStream(socket.getOutputStream());
 			dOut.writeUTF( args[0] );
-			DataInputStream dIn = new DataInputStream(socket.getInputStream());
-			System.out.println("Message inversé : " + dIn.readUTF());
 			socket.close();
         } 
 		catch (IOException e) 
