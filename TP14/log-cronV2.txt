@@ -1,0 +1,16 @@
+Recherche de vulnérabilités le 2024-03-12 à 10:46:44 :
+Aucune vulnérabilité détectée. Vous êtes à jour.
+Recherche de vulnérabilités le 2024-03-12 à 10:47:01 :
+Des vulnérabilités ont été détectées !
+Il y a 0 mises à jour en attente.
+Pour vous mettre à jour lancez la commande : sudo apt update && sudo apt upgrade -y
+Recherche de vulnérabilités le 2024-03-12 à 10:48:47 :
+\033[0;31mDes vulnérabilités ont été détectées !
+Il y a 0 mises à jour en attente.
+Pour vous mettre à jour lancez la commande : sudo apt update && sudo apt upgrade -y
+Recherche de vulnérabilités le 2024-03-12 à 10:55:51 :
+Des vulnérabilités ont été détectées !
+Il y a 0 mises à jour en attente. Un rapport vous a été envoyé par mail.
+Pour vous mettre à jour lancez la commande : sudo apt update && sudo apt upgrade -y
+Recherche de vulnérabilités le 2024-03-12 à 10:56:45 :
+Aucune vulnérabilité détectée. Vous êtes à jour.

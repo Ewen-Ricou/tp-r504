@@ -1,7 +1,7 @@
 #!/bin/bash
-exec >> /home/user/tp-r504/TP14/log-cron.txt
+exec >> /var/log/log-cron.txt
 echo "Recherche de vulnérabilités le $(date)"
-if $(debsecan --suite bullseye --only-fixed | wc -l) != 0
+if [ $(debsecan --suite bullseye --only-fixed | wc -l) -ne 0 ]
 then
 	echo "Des vulnérabilités ont été détectées !"
 else
