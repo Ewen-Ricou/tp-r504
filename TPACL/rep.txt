@@ -1,0 +1,16 @@
+Q1.2 : Permissions de bidon en octal -> 0644
+Q1.3 : Permissions de dtest en octal -> 0755
+Q1.4 : Octal umask par défaut -> 0022
+Q1.5 : Non
+Q1.6 : umask 022
+
+Q2.1 : config-5.10.0-28-amd64
+Q2.2 : ls -l /boot | grep $(uname -r)
+Q2.3 : grep ACL /boot/config-5.10.0-28-amd64 | wc -l -> Les ACL sont activées
+Q2.4 : commande ne fonctionne pas
+Q2.6 : L'option -R
+Q2.11 : Non
+Q2.12 : Il y a une nouvelle ligne "user:user2:r--"
+
+
+ 
