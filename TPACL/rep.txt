@@ -12,5 +12,9 @@ Q2.6 : L'option -R
 Q2.11 : Non
 Q2.12 : Il y a une nouvelle ligne "user:user2:r--"
 
+Q3.5 : 1er janvier 1970
+Q3.10 : error opening file
+Q3.11 : Non
+
 
  
